@@ -1,0 +1,2 @@
+# socknet
+Telnet for WebSockets
