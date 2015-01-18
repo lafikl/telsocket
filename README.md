@@ -9,5 +9,5 @@ Then cd to the directory and type
 go install
 ```
 
-viola you got a binary that can speak websockets!
+voila you got a binary that can speak websockets!
 
