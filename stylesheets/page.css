@@ -1,0 +1,107 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 60px 0 20px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    width: 930px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+}
+.subtitle {
+    float: left;
+    margin-left: 40px;
+    line-height: 85px;
+
+    color: #555;
+}
+.info {
+    margin-top: 40px;
+    text-align: center;
+    color: #555;
+}
+.info h4 {
+    line-height: 1.9em;
+}
+.sample {
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.download-button {
+    margin-top: 40px;
+    text-align: center;
+}
+.src-btn {
+    display: inline-block;
+    padding: 10px 25px;
+    text-align: center;
+    border-radius: 6px;
+    color: #666;
+    text-decoration: none;
+
+}
+.dl-btn {
+    display: inline-block;
+    background: #0468D4;
+    padding: 10px 25px;
+    text-align: center;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+}
+#usage {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#usage code {
+    background: #ededed;
+    padding: 15px;
+    border-radius: 5px;
+    display: block;
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+
+footer.container {
+    border-top: 1px dotted #ededed;
+    padding-top: 20px;
+    color: #999;
+    margin-top: 60px;
+}
+footer.container a {
+    color: #08c;
+    text-decoration: none;
+}
