@@ -21,8 +21,12 @@ var url = flag.String("url", "", "-url ws://127.0.0.1")
 
 func main() {
 	flag.Parse()
+	if *url == "" {
+		log.Fatal("URL can't be empty.")
+	}
 	done := make(chan bool)
 	c := NewClient(*url)
+
 	go func() {
 		for {
 			_, r, err := c.ReadMessage()
