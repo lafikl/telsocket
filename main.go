@@ -12,11 +12,6 @@ import (
 	"github.com/gorilla/websocket"
 )
 
-type Command struct {
-	Id     int    `json:"id"`
-	Method string `json:"method"`
-}
-
 var url = flag.String("url", "", "-url ws://127.0.0.1")
 
 func main() {
